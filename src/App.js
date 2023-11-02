@@ -24,7 +24,7 @@ const App = () => {
 
   useEffect(() => {
     fetchData();
-  }, [inputValue]);
+  }, []);
 
   return (
     <div className="App">
